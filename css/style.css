@@ -1,0 +1,127 @@
+img{
+	max-width: 500px;
+	display: block;
+	margin: auto;
+}
+
+body{
+    margin: 0;
+}
+header{
+    box-shadow: 0px 20px 17px #7fa2d645;
+    /* width: 1200px; */
+    /* margin: auto; */
+    padding: 15px 0;
+}
+.wrapper{
+    width: 1200px;
+    /* background: #bac2db38; */
+    margin: auto;
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{}
+nav{
+    width: 80%;
+    float: left;
+    /* margin: auto; */
+    /* overflow: hidden; */
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+nav ul li{list-style-type: none;display: inline-block;}
+nav ul li a {
+    font-size: 20px;
+    color: #3c84ff;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+nav ul li a:hover{
+	color: #073b93;
+}
+
+
+section{}
+.about-section{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.about-section h1{
+    text-align: center;
+    font-size: 65px;
+    color: #4e5259;
+    margin: 0 auto;
+    max-width: 850px;
+}
+.about-section h1 span{
+    color: #0c66ff;
+    text-transform: capitalize;
+}
+.about-section p{
+    margin: 0;
+    font-size: 20px;
+    color: #4e7799;
+}
+
+.feature-section{
+    padding: 100px 0;
+}
+.column{
+    width: 50%;
+    float: left;
+}
+.feature{
+    padding: 25px;
+}
+.feature h2{
+    font-size: 60px;
+    color: #575a89;
+    margin: 0;
+}
+.feature h2 span{
+	color: #F05262
+}
+.feature p{
+	    margin: 0;
+    font-size: 20px;
+    color: #4e7799;
+}
+.align-right{
+	text-align: right;
+}
+.blog-section{}
+.col{
+    width: 33.33%;
+    float: left;
+}
+.blog{}
+.blog img{
+    width: 300px;
+    height: 300px;
+}
+.blog h3{}
+.blog p{}
+
+.blog-section{padding: 100px;}
+.col{width: 33.33%;float: left;/* background: #FFF7E8; */padding: 10px;box-sizing: border-box;}
+.blog{background: #FFF7E8;padding: 20px;box-shadow: 0px 20px 17px #7fa2d645;}
+.blog img{}
+.blog h3{
+    color: #575a89;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.blog p{
+    color: #3f3d56;
+    font-size: 18px;
+    margin: 0;
+}
